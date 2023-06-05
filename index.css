@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+.hover_col:hover{
+    text-decoration: underline;
+    color: blue !important;
+}
+.About1{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.imagesize{
+    width:400px;
+    display: flex;
+    justify-content: end;
+}
+.HomeAbout h1{
+    overflow-y:hidden;
+    margin-bottom:70px;
+    color:rgb(7, 4, 44);
+    font-family: 'Andada Pro', serif;
+}
+.HomeAbout p{
+    color: rgb(65, 62, 62);
+    
+    text-align: justify;
+    font-family: 'Palanquin', sans-serif;
+    font-size:1.2em;
+    overflow: hidden;
+}
+
+.HomeAbout button{
+    background-color:white;
+    color:rgb(7, 4, 44);
+    border:2px solid rgb(136, 128, 128);
+    padding:10px;
+    border-radius: 15px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.HomeAbout button:hover{
+    background-color:rgb(7, 4, 44);
+    color:white;
+}
+
+.footer{
+    background-color: rgb(1, 1, 23);
+    color: white;
+}
+.icon{
+    color: white;
+}
+.icon:hover{
+    color: yellow;
+}
+
+
+
+.Universities{
+    background-color: antiquewhite;
+    margin-top: 10px;
+    height: 360px;
+}
+.Universities h4{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    /* font-family: 'Noto Serif', serif; */
+    font-weight:700;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+.Universities span{
+    overflow: hidden;
+    /* color:rgb(7, 7, 100); */
+    color:rgb(255, 51, 0);
+    padding-bottom: 2px;
+}
+.Universities img{
+    max-height:32px;
+    
+}
+.images{
+    padding-bottom:70px;
+}
